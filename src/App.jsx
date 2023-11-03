@@ -7,6 +7,13 @@ import  watch from "./assets/Images/watch.jpg"
 import { Catagory } from "./Styled/Catagory";
 import { Select } from "./Styled/Setect";
 import { MainDiv } from "./Styled/MainDiv";
+import { SelectDiv } from "./Styled/SelectDiv";
+import { Para } from "./Styled/para";
+import { CustomOption } from "./Styled/CustomOption";
+import { Price } from "./Styled/Price";
+import { ButtonDiv } from "./ButtonDiv";
+import { Butoon } from "./Styled/Button";
+import { Spanpage } from "./Styled/SpanPage";
 
 const App = () => {
   const [datas, setDatas] = useState([])
@@ -70,34 +77,26 @@ const prevPage = () => {
   console.log(currentPage, "currenpage");
   return (
     <MainDiv>
-
-      <div>
-       <div>
-       
-         <Select name='catagory'  onChange={handleCategoryChange}>
-            <option value="">All Categories</option>
-            <option value="Men's Watches">Men's Watches</option>
-            <option value="Women's Watches">Women's Watches</option>
-            <option value="All Gender Watches">All Gender Watches</option>
+      <SelectDiv>
+        <Select name='catagory'  onChange={handleCategoryChange}>
+            <CustomOption value="">All </CustomOption>
+            <CustomOption value="Men's Watches">Men's Watches</CustomOption>
+            <CustomOption value="Women's Watches">Women's Watches</CustomOption>
+            <CustomOption value="All Gender Watches">Common Watches</CustomOption>
            
           </Select>
-        
-      </div>
-       <div>
-         
-         <Select name='price'  onChange={handlepriceChange}>
-            <option value="">None</option>
-            <option value="lowprice">Low to price</option>
-            <option value="highprice">High to price</option>
+        <Select name='price'  onChange={handlepriceChange}>
+            <CustomOption value="">None</CustomOption>
+            <CustomOption value="lowprice">Low to High</CustomOption>
+            <CustomOption value="highprice">High to Low</CustomOption>
             
            
           </Select>
-        
-      </div>
-        <div>
-
-        </div>
-      </div>
+    </SelectDiv>
+      
+      
+       
+      
       <GridContainer>
         {
           watchDisplay.map(data =>
@@ -106,26 +105,26 @@ const prevPage = () => {
                 <Image src={watch} alt="watch" />
                 <Title> {data.title}</Title>
                 <Catagory>{data.category}</Catagory>
-                <p>{ data.price}</p>
-                <p style={{width:'300px'}}>{ data.description}</p>
+                <Price>$ { data.price}</Price>
+                <Para >{ data.description}</Para>
               </div>
               
             </DivGrid>
             )
         }
       </GridContainer>
-      <div >
-  <button onClick={prevPage} disabled={currentPage === 1}>
+      <ButtonDiv >
+  <Butoon onClick={prevPage} disabled={currentPage === 1}>
     Previous
-  </button>
-  <span>Page {currentPage}</span>
-  <button
+  </Butoon>
+  <Spanpage>Page {currentPage}</Spanpage>
+  <Butoon
     onClick={nextPage}
     disabled={currentPage === Math.ceil( sortdata.length / itemsPerPage)}
   >
     Next
-  </button>
-</div>
+  </Butoon>
+</ButtonDiv>
 
     </MainDiv>
   );

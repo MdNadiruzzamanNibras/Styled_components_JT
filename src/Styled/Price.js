@@ -1,17 +1,14 @@
 import styled from 'styled-components';
 
-export const MainDiv = styled.div`
- 
-  margin:20px 300px;
+export const Price = styled.div`
+  font-size: 2em;
 
   @media (max-width: 768px) {
-    
-    margin:0 50px;
+     font-size: 1.5em;
   }
   
 
   @media (max-width: 640px) {
-    
-    margin:0;
+    font-size: 1em;
   }
 `;
