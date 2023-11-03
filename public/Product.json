@@ -1,0 +1,142 @@
+[
+  {
+    "id": 1,
+    "title": "Elegant Silver Watch",
+    "description": "A stylish and elegant silver watch with a leather strap.",
+    "price": 149.99,
+    "category": "Men's Watches"
+  },
+  {
+    "id": 2,
+    "title": "Classic Gold Timepiece",
+    "description": "A classic gold-plated watch with Roman numerals and a stainless steel band.",
+    "price": 199.99,
+    "category": "Men's Watches"
+  },
+  {
+    "id": 3,
+    "title": "Sporty Chronograph Watch",
+    "description": "A sporty chronograph watch designed for active individuals.",
+    "price": 129.99,
+    "category": "Men's Watches"
+  },
+  {
+    "id": 4,
+    "title": "Ladies' Diamond Watch",
+    "description": "An exquisite ladies' watch with diamond accents and a pink leather strap.",
+    "price": 299.99,
+    "category": "Women's Watches"
+  },
+  {
+    "id": 5,
+    "title": "Minimalist Black Watch",
+    "description": "A minimalist black watch with a sleek design and genuine leather band.",
+    "price": 79.99,
+    "category": "Men's Watches"
+  },
+  {
+    "id": 6,
+    "title": "Automatic Skeleton Watch",
+    "description": "An automatic skeleton watch that showcases its inner workings.",
+    "price": 179.99,
+    "category": "Men's Watches"
+  },
+  {
+    "id": 7,
+    "title": "Digital Smartwatch",
+    "description": "A versatile digital smartwatch with fitness tracking and notifications.",
+    "price": 249.99,
+    "category": "All Gender Watches"
+  },
+  {
+    "id": 8,
+    "title": "Diver's Watch",
+    "description": "A rugged diver's watch suitable for underwater adventures.",
+    "price": 159.99,
+    "category": "Men's Watches"
+  },
+  {
+    "id": 9,
+    "title": "Rose Gold Elegance",
+    "description": "A rose gold watch with a touch of elegance and a mesh band.",
+    "price": 189.99,
+    "category": "Women's Watches"
+  },
+  {
+    "id": 10,
+    "title": "Aviator's Chronograph",
+    "description": "An aviator-style chronograph watch with multiple dials and a leather strap.",
+    "price": 219.99,
+    "category": "Men's Watches"
+  },
+  {
+    "id": 11,
+    "title": "Vintage Pocket Watch",
+    "description": "A vintage-style pocket watch with a chain for a timeless look.",
+    "price": 99.99,
+    "category": "Vintage Watches"
+  },
+  {
+    "id": 12,
+    "title": "Modern Ceramic Watch",
+    "description": "A modern ceramic watch with a unique design and a ceramic band.",
+    "price": 169.99,
+    "category": "All Gender Watches"
+  },
+  {
+    "id": 13,
+    "title": "Sleek Titanium Watch",
+    "description": "A sleek titanium watch that's lightweight and durable.",
+    "price": 139.99,
+    "category": "Men's Watches"
+  },
+  {
+    "id": 14,
+    "title": "Art Deco Style Watch",
+    "description": "An art deco-inspired watch with a distinctive design and leather band.",
+    "price": 129.99,
+    "category": "Women's Watches"
+  },
+  {
+    "id": 15,
+    "title": "Retro Digital Watch",
+    "description": "A retro-style digital watch with a nostalgic display and resin strap.",
+    "price": 89.99,
+    "category": "All Gender Watches"
+  },
+  {
+    "id": 16,
+    "title": "Designer's Timepiece",
+    "description": "A designer's timepiece with a unique artistic face and stainless steel band.",
+    "price": 299.99,
+    "category": "Men's Watches"
+  },
+  {
+    "id": 17,
+    "title": "Luxury Rose Gold Watch",
+    "description": "A luxury rose gold watch with crystal accents and a genuine leather strap.",
+    "price": 349.99,
+    "category": "Women's Watches"
+  },
+  {
+    "id": 18,
+    "title": "Military-Style Watch",
+    "description": "A military-style watch with rugged aesthetics and nylon strap.",
+    "price": 109.99,
+    "category": "Men's Watches"
+  },
+  {
+    "id": 19,
+    "title": "Fashionable Square Watch",
+    "description": "A fashionable square watch with a trendy design and metal band.",
+    "price": 119.99,
+    "category": "All Gender Watches"
+  },
+  {
+    "id": 20,
+    "title": "Mechanical Tourbillon Watch",
+    "description": "A mechanical tourbillon watch with precision engineering and a leather strap.",
+    "price": 449.99,
+    "category": "Men's Watches"
+  }
+]
